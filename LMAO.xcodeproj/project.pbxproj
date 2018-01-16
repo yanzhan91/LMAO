@@ -11,7 +11,6 @@
 		B5E1C675200D5994000CFF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E1C674200D5994000CFF07 /* Assets.xcassets */; };
 		B5E1C680200D59C3000CFF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E1C67F200D59C3000CFF07 /* Main.storyboard */; };
 		B5E1C684200D5F4E000CFF07 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C683200D5F4D000CFF07 /* InfoViewController.swift */; };
-		B5E1C686200D5F61000CFF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C685200D5F61000CFF07 /* AppDelegate.swift */; };
 		B5E1C688200D5F6F000CFF07 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C687200D5F6F000CFF07 /* Config.swift */; };
 		B5E1C68A200D5F77000CFF07 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C689200D5F77000CFF07 /* DisclaimerViewController.swift */; };
 		B5E1C68C200D5F7C000CFF07 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C68B200D5F7C000CFF07 /* Global.swift */; };
@@ -49,6 +48,7 @@
 		B5E1C6D0200D9DC2000CFF07 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C6B2200D9DC2000CFF07 /* DesignableLabel.swift */; };
 		B5E1C6D1200D9DC2000CFF07 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C6B3200D9DC2000CFF07 /* SpringView.swift */; };
 		B5E1C6D2200D9DC2000CFF07 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C6B5200D9DC2000CFF07 /* SpringTextView.swift */; };
+		B5E1C6D4200DA63B000CFF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1C6D3200DA63B000CFF07 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +58,6 @@
 		B5E1C674200D5994000CFF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E1C67F200D59C3000CFF07 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B5E1C683200D5F4D000CFF07 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		B5E1C685200D5F61000CFF07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../LMAO_old/lmao/AppDelegate.swift; sourceTree = "<group>"; };
 		B5E1C687200D5F6F000CFF07 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B5E1C689200D5F77000CFF07 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
 		B5E1C68B200D5F7C000CFF07 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		B5E1C6B3200D9DC2000CFF07 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
 		B5E1C6B4200D9DC2000CFF07 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
 		B5E1C6B5200D9DC2000CFF07 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		B5E1C6D3200DA63B000CFF07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E71F73D0881A7AC396963053 /* Pods-LMAO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMAO.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMAO/Pods-LMAO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,7 +144,6 @@
 				B5E1C697200D9DB1000CFF07 /* Spring */,
 				B5E1C67F200D59C3000CFF07 /* Main.storyboard */,
 				B5E1C68B200D5F7C000CFF07 /* Global.swift */,
-				B5E1C685200D5F61000CFF07 /* AppDelegate.swift */,
 				B5E1C687200D5F6F000CFF07 /* Config.swift */,
 				B5E1C683200D5F4D000CFF07 /* InfoViewController.swift */,
 				B5E1C689200D5F77000CFF07 /* DisclaimerViewController.swift */,
@@ -161,6 +160,7 @@
 		B5E1C697200D9DB1000CFF07 /* Spring */ = {
 			isa = PBXGroup;
 			children = (
+				B5E1C6D3200DA63B000CFF07 /* AppDelegate.swift */,
 				B5E1C6A4200D9DC1000CFF07 /* AsyncButton.swift */,
 				B5E1C6A5200D9DC1000CFF07 /* AsyncImageView.swift */,
 				B5E1C6AA200D9DC1000CFF07 /* AutoTextView.swift */,
@@ -339,7 +339,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E1C6C5200D9DC2000CFF07 /* TransitionManager.swift in Sources */,
-				B5E1C686200D5F61000CFF07 /* AppDelegate.swift in Sources */,
 				B5E1C693200D5F9A000CFF07 /* JokesService.swift in Sources */,
 				B5E1C6C4200D9DC2000CFF07 /* BlurView.swift in Sources */,
 				B5E1C6CB200D9DC2000CFF07 /* DesignableView.swift in Sources */,
@@ -351,6 +350,7 @@
 				B5E1C6D1200D9DC2000CFF07 /* SpringView.swift in Sources */,
 				B5E1C6C7200D9DC2000CFF07 /* SpringImageView.swift in Sources */,
 				B5E1C695200D5F9A000CFF07 /* RestApiManager.swift in Sources */,
+				B5E1C6D4200DA63B000CFF07 /* AppDelegate.swift in Sources */,
 				B5E1C688200D5F6F000CFF07 /* Config.swift in Sources */,
 				B5E1C6C1200D9DC2000CFF07 /* DesignableTextField.swift in Sources */,
 				B5E1C6C2200D9DC2000CFF07 /* AsyncButton.swift in Sources */,
